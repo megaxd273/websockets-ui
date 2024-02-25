@@ -24,3 +24,7 @@ export interface IResponse {
   data: string;
   id: 0;
 }
+export interface ILobbyPartisipant {
+  name: string;
+  index: number | string;
+}
